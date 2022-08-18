@@ -25,7 +25,7 @@ resource "aws_instance" "my_webserver" {
   #user_data = templatefile("install.sh.tftpl", { #template if needed
   #  f_name = "Maksim",
   #  l_name = "Kulikov",
-  #  names  = ["Daniel", "Aynur", "Andrej"]
+  #  names  = ["Daniel", "Aynur", "Andrey"]
 
   tags = {
     Name  = "Web Server Terraform"
