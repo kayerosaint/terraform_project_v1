@@ -70,7 +70,7 @@ sleep 1
 # Web Script Transfer
 echo -e "$Cyan \n Web Script Transfer/Amazon meta $Color_Off"
 myip=`curl -s http://169.254.169.254/user-data/`
-echo "<h2>WebServer with IP: $myip</h2><br>Hello from ${f_name} ${l_name}"<br> > /var/www/html/index.html
+echo "<h2>WebServer with IP: $myip</h2><br>Hello from ${f_name} ${l_name}" > /var/www/html/index.html
 
 # Restart Apache
 echo -e "$Cyan \n Restarting Apache $Color_Off"
